@@ -101,7 +101,7 @@ def main():
     
     if tesseract_ok and pymupdf_ok:
         print("\n" + "="*60)
-        print("🎉 SETUP COMPLETE!")
+        print("SETUP COMPLETE!")
         print("="*60)
         print("All dependencies are installed and ready to use.")
         print("\nYou can now run the PDF name extractor:")
@@ -110,7 +110,7 @@ def main():
     
     else:
         print("\n" + "="*60)
-        print("⚠️  ADDITIONAL SETUP REQUIRED")
+        print("ADDITIONAL SETUP REQUIRED")
         print("="*60)
         
         if not tesseract_ok:
